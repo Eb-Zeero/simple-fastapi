@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "simple-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Eb-Zeero <macebelene@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simple_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.101.0"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
